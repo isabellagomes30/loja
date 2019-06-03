@@ -19,3 +19,9 @@ function adicionarCategoria () {
 
     }
 }
+
+function listarCategorias (){
+    $dados= array();
+    $dados["categorias"]= pegarTodasCategorias();
+    exibir ("categoria/listar", $dados);
+}

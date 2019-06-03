@@ -1,9 +1,5 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
         <meta charset="UTF-8">
@@ -14,13 +10,13 @@ and open the template in the editor.
         
         <table class="table">
             <thead>
-                <tr>NOME</tr>
-                <tr>SOBRENOME</tr>
-                <tr>EMAIL</tr>
-                <tr>SENHA</tr>
-                <tr>CONFIRMAR SENHA</tr>
-                <tr>CPF</tr>
-                <tr>DATA DE NASCIMENTO</tr>
+                <tr>NOME  </tr>
+                <tr> SOBRENOME </tr>
+                <tr> EMAIL </tr>
+                <tr> SENHA </tr>
+                <tr> CONFIRMAR SENHA </tr>
+                <tr> CPF </tr>
+                <tr> DATA DE NASCIMENTO </tr>
             </thead>
             <?php foreach ($clientes as $cliente): ?>
             <tr>

@@ -39,3 +39,9 @@ function adicionar () {
 
     }
 }
+
+function listarProdutos (){
+    $dados= array();
+    $dados["produtos"]= pegarTodosProdutos();
+    exibir ("produto/listar", $dados);
+}
